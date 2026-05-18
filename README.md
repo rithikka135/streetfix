@@ -1,7 +1,3 @@
-# streetfix
-StreetFix is a smart civic issue reporting web application that enables citizens to report street-level problems like potholes, garbage, water leakage, and damaged streetlights with location-based tracking for faster resolution.
-
-
 # StreetFix – Smart Civic Issue Reporting System
 
 StreetFix is a web-based civic engagement platform designed to help citizens report and track local street-related issues efficiently. The application allows users to report problems such as potholes, garbage accumulation, water leakage, damaged streetlights, and road maintenance issues by providing location details and issue descriptions.
