@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="app_name">StreetFix</string>
+
+    <string name="issue_title">Issue Title</string>
+    <string name="description">Description</string>
+    <string name="location">Location</string>
+
+    <string name="selected_issue_image">Selected issue image</string>
+
+    <string name="upload_image">Upload Image</string>
+    <string name="submit_issue">Submit Issue</string>
+
+</resources>

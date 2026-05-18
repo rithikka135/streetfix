@@ -1,0 +1,89 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/titleText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Issue Title"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#212121"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/locationText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Location"
+            android:textSize="16sp"
+            android:textColor="#616161"
+            android:paddingBottom="8dp"/>
+
+        <!-- NEW: Map to show issue location -->
+        <org.osmdroid.views.MapView
+            android:id="@+id/detailMapView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/descriptionText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:textSize="16sp"
+            android:textColor="#424242"
+            android:paddingBottom="16dp"/>
+
+        <ImageView
+            android:id="@+id/detailImage"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:scaleType="centerCrop"
+            android:background="@drawable/rounded_image"
+            android:contentDescription="Selected issue image"
+            android:elevation="4dp"/>
+
+        <TextView
+            android:id="@+id/statusText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Status: Pending"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#FF5722"
+            android:paddingTop="16dp"/>
+
+        <!-- Timeline of updates -->
+        <TextView
+            android:id="@+id/timelineText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Timeline"
+            android:textSize="16sp"
+            android:textColor="#424242"
+            android:paddingTop="12dp"
+            android:paddingBottom="16dp"/>
+
+        <Button
+            android:id="@+id/fixButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mark as Fixed"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#03A9F4"
+            android:textColor="#FFFFFF"
+            android:padding="12dp"
+            android:clipToOutline="true"/>
+
+    </LinearLayout>
+</ScrollView>
