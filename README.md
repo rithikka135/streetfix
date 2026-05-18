@@ -15,9 +15,9 @@ The platform improves communication between citizens and local authorities by en
 
 ### Technologies Used
 
-* **Frontend:** HTML, CSS, JavaScript
-* **Backend:** (Add yours if used — e.g., Node.js / Express)
-* **Database:** (Add if used — e.g., MongoDB)
+Java / Kotlin
+Android Studio
+XML Layouts
 * **Version Control:** Git & GitHub
 
 ### Purpose
