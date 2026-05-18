@@ -15,10 +15,13 @@ The platform improves communication between citizens and local authorities by en
 
 ### Technologies Used
 
-Java / Kotlin
-Android Studio
-XML Layouts
-* **Version Control:** Git & GitHub
+* **Programming Language:** Java / Kotlin
+* **Development Environment:** Android Studio
+* **UI Design:** XML Layouts
+* **Version Control:** Git & [GitHub]
+
+
+
 
 ### Purpose
 
